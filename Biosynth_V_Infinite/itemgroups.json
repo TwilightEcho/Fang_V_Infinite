@@ -19,6 +19,10 @@
       {
         "item": "bio_fox_tail_cbm",
         "prob": 1
+      },
+      {
+        "item": "bio_quantum_battery",
+        "prob": 1
       }
     ]
   }

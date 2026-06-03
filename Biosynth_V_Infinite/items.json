@@ -348,5 +348,17 @@
     },
     "description": "An installable cosmetic articulated fox tail CBM.",
     "bionic_id": "bio_fox_tail_cbm"
+  },
+  {
+    "id": "bio_quantum_battery",
+    "type": "BIONIC_ITEM",
+    "copy-from": "bionic_general_npc_usable",
+    "looks_like": "bio_int_enhancer",
+    "category": "bionics",
+	"price": "99999999 USD",
+    "weight": "70 g",
+    "name": { "str": "CBM: Quantum Battery" },
+    "description": "An installable quantum battery CBM.",
+    "bionic_id": "bio_quantum_battery"
   }
 ]

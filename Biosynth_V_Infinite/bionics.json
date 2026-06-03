@@ -2,21 +2,10 @@
   {
     "type": "bionic",
     "id": "bio_android_toolset",
-    "name": {
-      "str": "Android Toolkit"
-    },
+    "name": { "str": "Android Toolkit"},
     "description": "Toggleable internal tool matrix that exposes actions and qualities without occupying your hands.",
-    "occupied_bodyparts": [
-      [
-        "torso",
-        6
-      ]
-    ],
-    "flags": [
-      "BIONIC_TOGGLED",
-      "BIONIC_TOOLS",
-      "INITIALLY_ACTIVATE"
-    ],
+    "occupied_bodyparts": [ [ "torso", 6 ] ],
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_TOOLS", "INITIALLY_ACTIVATE", "BIONIC_SHOCKPROOF" ],
     "fake_item": "android_toolkit_active_item",
     "included_bionics": [
       "bio_android_toolset_extended"
@@ -32,7 +21,8 @@
     "flags": [
       "BIONIC_TOGGLED",
       "BIONIC_WEAPON",
-      "BIONIC_TOOLS"
+      "BIONIC_TOOLS",
+	  "BIONIC_SHOCKPROOF"
     ],
     "fake_item": "android_toolkit_active_item",
     "included": true
@@ -52,7 +42,8 @@
     "time": 1,
     "flags": [
       "BIONIC_POWER_SOURCE",
-      "BIONIC_TOGGLED"
+      "BIONIC_TOGGLED",
+	  "BIONIC_SHOCKPROOF"
     ]
   },
   {
@@ -110,42 +101,22 @@
       "str": "Vulpine Balance Vector"
     },
     "description": "A cosmetic articulated fox tail mounted to the lower torso. Mostly decorative, but the support frame gives a small amount of rear torso protection.",
-    "occupied_bodyparts": [
-      [
-        "torso",
-        1
-      ]
-    ],
-    "flags": [
-    ],
+    "occupied_bodyparts": [ [ "torso", 1 ] ],
+    "flags": [ "BIONIC_SHOCKPROOF" ],
     "act_cost": "0 kJ",
     "deact_cost": "0 kJ",
     "react_cost": "0 kJ",
     "time": 0,
-    "bash_protec": [
-      [
-        "torso",
-        3
-      ]
-    ],
-    "cut_protec": [
-      [
-        "torso",
-        3
-      ]
-    ]
+    "bash_protec": [ [ "torso", 3 ] ],
+    "cut_protec": [ [ "torso", 3 ] ]
   },
   {
 	"type": "bionic",  
     "id": "bio_quantum_battery",
     "name": { "str": "Quantum Battery Matrix" },
     "capacity": "1000 kJ",
-    "occupied_bodyparts": [ 
-	  [ 
-	    "torso", 
-		1 
-	  ] 
-	],
+    "occupied_bodyparts": [ [ "torso", 1 ] ],
+    "flags": [ "MULTIINSTALL", "BIONIC_SHOCKPROOF" ],
     "description": "The QBM-7 Quantum Battery Matrix is a next-generation energy storage array integrated directly into the chassis. Utilizing quantum-stabilized capacitor banks, it can safely contain extraordinary amounts of electrical energy without the size or weight penalties of conventional batteries. Designed for advanced synthetic operatives, the matrix provides the endurance necessary for extended autonomous deployment."
   }
 ]
