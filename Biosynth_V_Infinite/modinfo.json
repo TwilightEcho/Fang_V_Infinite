@@ -1,0 +1,15 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Fox_Android",
+    "name": "Biosynth V Infinite",
+    "authors": [
+      "TwilightEcho"
+    ],
+    "description": "Personal mod, adds somewhat OP CBMs and a new scenario",
+    "category": "misc_additions",
+    "dependencies": [
+      "bn"
+    ]
+  }
+]
