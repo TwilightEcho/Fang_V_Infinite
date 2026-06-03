@@ -1,0 +1,15 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Fang_V_Infinite",
+    "name": "Fang V Infinite",
+    "authors": [
+      "Fang"
+    ],
+    "description": "Personal Bright Nights mod adding the Android Toolkit CBM suite and the QSR-0P Quantum Reactor.",
+    "category": "misc_additions",
+    "dependencies": [
+      "bn"
+    ]
+  }
+]
