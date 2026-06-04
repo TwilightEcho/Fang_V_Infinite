@@ -1,0 +1,53 @@
+[
+  {
+    "type": "scenario",
+    "id": "fvi_bionic_scenario",
+    "name": "Unkind Android",
+    "points": 0,
+    "description": "You were humanity's last resort. Stationed in a city to be deployed when needed. The order never came.",
+	"flags": [ "CITY_START", "LONE_START" ],
+    "allowed_locs": [ "sloc_basement_bionic" ],
+    "professions": [ "fox_android" ],
+    "start_name": "Rude Awakening"
+  },
+  {
+    "type": "profession",
+    "id": "fox_android",
+    "name": "Biosynthetic Android: Vulpine Module",
+    "description": "A bionsynthetic living weapon, you were designed to be the shift in balance during humanity's last stand. Instead, a failsafe activated you after two weeks of no all clear signal.",
+    "points": 0,
+    "CBMs": [
+      "bio_android_toolset",
+      "bio_quantum_reactor",
+      "bio_fox_ears_cbm",
+      "bio_fox_tail_cbm",
+	  "bio_reactor",
+      "bio_metabolics",
+      "bio_ethanol",
+      "bio_ups",
+      "bio_targeting",
+      "bio_geiger",
+      "bio_power_armor_interface",
+      "bio_cqb",
+      "bio_blade",
+      "bio_weight",
+	  "bio_quantum_battery",
+	  "bio_carbon"
+    ],
+    "items": {
+      "both": {
+        "items": [		  
+		  "winter_pants_army",
+          "tshirt",
+          "winter_jacket_army",
+          "winter_gloves_army",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "canteen",
+          "rucksack" ]
+      }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  }
+]
