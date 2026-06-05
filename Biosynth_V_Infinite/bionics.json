@@ -3,7 +3,7 @@
     "type": "bionic",
     "id": "bio_android_toolset",
     "name": { "str": "Android Toolkit"},
-    "description": "Toggleable projected tool matrix that forms an advanced multifunction toolkit in your hands while active.",
+    "description": "Toggleable projected tool matrix that projects an advanced multifunction toolkit from your hands while active.",
     "occupied_bodyparts": [ [ "torso", 6 ] ],
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_TOOLS" ],
     "fake_item": "android_toolkit_active_item"
