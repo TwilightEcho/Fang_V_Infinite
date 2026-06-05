@@ -61,7 +61,7 @@
           "boots_combat",
           "wristwatch",
           "canteen",
-          "rucksack" ]
+          "AndroidQuantumStorageMatrix" ]
       }
     },
     "flags": [ "SCEN_ONLY" ]

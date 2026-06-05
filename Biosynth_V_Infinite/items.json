@@ -202,5 +202,20 @@
     "name": { "str": "CBM: Quantum Battery" },
     "description": "An installable quantum battery CBM.",
     "bionic_id": "bio_quantum_battery"
-  }
+  },
+  {
+  "id": "AndroidQuantumStorageMatrix",
+  "type": "ARMOR",
+  "name": { "str": "Quantum Storage Matrix", "str_pl": "Quantum Storage Matrices" },
+  "description": "Permanently integrated into your biosynthetic chassis, this experimental storage matrix links to a compact extradimensional space. Designed to reduce logistical burdens on long-duration autonomous deployments, the technology was never completed before the fall of civilization. Even in its unfinished state, the prototype provides storage capacity far beyond conventional equipment.",
+  "weight": "0 g",
+  "volume": "0 ml",
+  "price": "99999999 USD",
+  "material": [ "superalloy" ],
+  "symbol": "[",
+  "color": "white",
+  "storage": "500 L",
+  "weight_capacity_bonus": "1500 kg",
+  "flags": [ "NO_DROP", "TRADER_AVOID", "STURDY", "ONLY_ONE", "NO_REPAIR", "NO_TAKEOFF", "NO_SALVAGE" ]
+}
 ]
