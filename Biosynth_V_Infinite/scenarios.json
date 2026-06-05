@@ -36,7 +36,16 @@
     ],
     "items": {
       "both": {
-        "items": [ "jumpsuit", "socks", "sneakers" ]
+        "items": [		  
+		  "winter_pants_army",
+          "tshirt",
+          "winter_jacket_army",
+          "winter_gloves_army",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "canteen",
+          "rucksack" ]
       }
     },
     "flags": [ "SCEN_ONLY" ]
